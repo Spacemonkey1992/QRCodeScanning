@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
                 if (result.contents == null) {
                     Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show()
                 } else {
-                    Toast.makeText(this, "Scanned: " + result.contents, Toast.LENGTH_LONG).show()
                 }
             } else {
                 super.onActivityResult(requestCode, resultCode, data)
